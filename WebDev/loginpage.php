@@ -32,8 +32,8 @@ include("login.php");
                 <input type="text" id="user" name="username" placeholder="Username">
                 <input type="password" id="pass" name="password" placeholder="Password">
                 <input type="submit" id="btn" value="Login" name = "submit"/>
-                <a href="loginpage.php" class = "signup">Not yet a member? Sign up</a>
         </form>
+        <a href="signup.php" class = "signup">Not yet a member? Sign up</a>
         </div>
 </div>
        
@@ -53,7 +53,6 @@ include("login.php");
                     alert(" Password field is empty!!!");
                     return false;
                 }
-                
             }
         </script>
 

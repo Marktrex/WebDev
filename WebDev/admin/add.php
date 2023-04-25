@@ -41,23 +41,23 @@
     </div>
     <br>
     <label id="label1"> FIRSTNAME: </label>
-    <input type="text" name="fname" id="form">
+    <input type="text" name="fname" id="form" required>
     <br>
     <br>
     <label id="label2"> LASTNAME: </label>
-    <input type="text" name="lname" id="form">
+    <input type="text" name="lname" id="form" required>
     <br>
     <br>
     <label id="label3"> EMAIL: </label>
-    <input type="text" name="email" id="form">
+    <input type="text" name="email" id="form" required>
     <br>
     <br>
     <label id="label4"> USERNAME: </label>
-    <input type="text" name="username" id="form">
+    <input type="text" name="username" id="form" required>
     <br>
     <br>
     <label id="label4"> PASSWORD: </label>
-    <input type="text" name="password" id="form">
+    <input type="text" name="password" id="form" required>
     <br>
     <br>
 

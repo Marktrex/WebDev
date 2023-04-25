@@ -40,6 +40,7 @@
     $result = $conn->query($sql);
     echo  '<script>
     window.location.href = "../admin/admindash.php";
+    alert("Successfully Edited!")
    </script>';
   }
 
@@ -66,25 +67,25 @@
     <h1>Update Member</h1>
     </div>
     <br>
-    <input type="hidden" name="id" value="<?php echo $id; ?>" id="form"><br>
+    <input type="hidden" name="id" value="<?php echo $id; ?>" id="form" required><br>
     <label id="label1"> FIRSTNAME: </label>
-    <input type="text" name="fname" value="<?php echo $firstname; ?>" id="form">
+    <input type="text" name="fname" value="<?php echo $firstname; ?>" id="form" required>
     <br>
     <br>
     <label id="label2"> LASTNAME: </label>
-    <input type="text" name="lname" value="<?php echo $lastname; ?>" id="form">
+    <input type="text" name="lname" value="<?php echo $lastname; ?>" id="form" required>
     <br>
     <br>
     <label id="label3"> EMAIL: </label>
-    <input type="text" name="email" value="<?php echo $email; ?>" id="form">
-    <br>
+    <input type="text" name="email" value="<?php echo $email; ?>" id="form" required> 
+    <br> 
     <br>
     <label id="label4"> USERNAME: </label>
-    <input type="text" name="username" value="<?php echo $username; ?>" id="form">
+    <input type="text" name="username" value="<?php echo $username; ?>" id="form" required>
     <br>
     <br>
     <label id="label5"> PASSWORD: </label>
-    <input type="text" name="password" value="<?php echo $password; ?>" id="form">
+    <input type="text" name="password" value="<?php echo $password; ?>" id="form" required>
     <br>
     <br>
 
