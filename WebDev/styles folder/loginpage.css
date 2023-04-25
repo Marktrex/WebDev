@@ -1,0 +1,137 @@
+body {
+    background-color: #C5B3B3;
+  }
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+  .h1, .header1{
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+}
+  .p, .p1{
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+}
+  .header1{
+    left: 10%;
+    top: 15%;
+  }
+  .p1{
+    left: 10%;
+    top: 23%;
+  }
+img{
+  max-width: 100%;
+  height: 100%; 
+  object-fit: cover;  
+}
+  .rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6{ /*Container of the pictures*/
+    position: absolute;
+    width: 110px;
+    background: #FD9A9A;
+  }
+  .rectangle1{
+    height: 351px;
+    top: 0%;
+    right: 10%;
+  }
+  .rectangle2{
+    height: 314px;
+    top: 0%;
+    right: 20%;
+  }
+  .rectangle3{
+    height: 272px;
+    top: 0%;
+    right: 30%;
+  }
+  .rectangle4{
+    height: 351px;
+    bottom: 0%;
+    left: 10%;
+  }
+  .rectangle5{
+    height: 314px;
+    bottom: 0%;
+    left: 20%;
+  }
+  .rectangle6{
+    height: 272px;
+    bottom: 0%;
+    left: 30%;
+  }
+  .box_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login_box{
+    position: absolute;
+    width: 325px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* to center it */
+    border-radius: 15px; /* to make it a little rounded on the edges */
+    border-top: 2rem solid #D9D9D9;
+    border-bottom: 2rem solid #D9D9D9;
+    background-color: #FFFFFF;
+  }
+  .Login, #user, #pass, #btn{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 50%;
+    width: 325px;
+    transform: translate(-50%, -50%);
+  }
+  .Login{
+    height: 25px;
+    top: -13.5%;
+  }
+  #user{
+    height: 22px;
+    width: 190px;
+    top: 25%;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+  }
+  #pass{
+    height: 22px;
+    width: 190px;
+    bottom: 40%;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+  }
+  #btn{
+    height: 35px;
+    width: 70px;
+    bottom: 8%;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+  }
+  .signup{
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 50%;
+    bottom: -15%;
+    width: 325px;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+  }
+  
+  /* END OF THE LOGIN PAGE ^^ */
+  
+  

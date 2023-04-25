@@ -1,0 +1,70 @@
+html{ /*this makes the side scrollbar disappear on y axis*/
+  overflow-x: hidden;
+}
+body { /* body of the html */
+    background-color: #C5B3B3;
+    margin: 0%;
+  }
+.navbar{ /*navigation bar design*/
+    border: 1px black solid;
+    border-color: #D9D9D9;
+    background-color: #D9D9D9;
+    height: 50px;
+    margin-top: 0%;
+    padding: 16px;
+    width: 100%;
+  }
+.navbar a {
+  position: absolute;
+  background-color:#D9D9D9;
+  border: 1px black solid;
+  border-color:#D9D9D9;
+  border-radius: 15px;
+  color: #FFFFFF;
+  margin-top: -10px;
+  font-size: 35px;
+  padding: 13px;
+  text-decoration:none;
+}
+.navbar #a2:hover {
+  background-color: #C5B3B3;
+}
+#a1, #a3{
+  background-color: #C5B3B3;
+}
+#a2{
+  left: 23%;
+}
+#a3{
+  right: 1.5%;
+}
+.infotbl{
+background-color: #D9D9D9;
+border: 1px black solid;
+border-color: #D9D9D9;
+border-radius: 15px;
+color: #FFFFFF;
+font-size: 20px;
+margin-top: 30px;
+margin-left:25%;
+padding: 15px;
+text-align: center;
+width: 50%;
+}
+.infotbl th{
+padding: 5px;
+border: 1px black solid;
+}
+.btnEdit, .btnDelete{
+  border-radius: 3px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px;
+}
+.btnEdit{
+  background-color: #B9F3E4;
+}
+.btnDelete{
+  background-color: #EA8FEA;
+}

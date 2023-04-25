@@ -1,0 +1,170 @@
+body { /* body of the html */
+    background-color: #C5B3B3;
+    margin: 0%;
+  }
+  
+.container1{ /* container for the left box */
+    border-radius: 20px;
+    float: left;
+    width: 600px;
+    height: 450px;
+    margin-top: 10%;
+    margin-left: 4%;
+    background: #D9D9D9;
+  }
+  img{ /* image size */
+    width: 100%;
+    max-height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+.imgbox{ /*image box container*/
+    color: #C5B3B3;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: #C5B3B3;
+    margin-top: 5%;
+    margin-left: 10%;
+    outline: none;
+    width: 480px;
+    height: 305px;
+}
+.container2{ /* container for the recipes */
+    border-radius: 20px;
+    float: right;
+    width: 600px;
+    height: 450px;
+    margin-top: 10%;
+    margin-right: 4%;
+    background: #D9D9D9;
+}
+#title1{ /* recipe name */
+    color: #C5B3B3;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: #C5B3B3;
+    margin-left: 20%;
+    margin-top: 5%;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 30px;
+    outline: none;
+}
+#textarea1{ /* text area for the recipe */
+    color: #C5B3B3;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: #C5B3B3;
+    margin-top: 5%;
+    margin-left: 10%;
+    outline: none;
+    width: 480px;
+    height: 300px;
+}
+#ingredients{ /* Ingredients or recipe name */
+    margin-top: 10%;
+}
+#button1{ /* submit button   */
+    border: 1px solid black;
+    border-radius: 5px;
+    border-color: #C5B3B3;
+    color: #C5B3B3;
+    cursor: pointer;
+    margin-top: 0px;
+}
+#button1:hover { /* hover button to change the color when pointing the cursor mouse */
+  border-color: #C5B3B3;
+  background-color: #D9D9D9;
+  color: #FFFFFF;
+}
+#footer{ /* footer */
+    overflow: hidden;
+    bottom: 0%;
+    width: 100%;
+    height: 15%;
+    background: #D9D9D9;
+}  
+ .navbar{
+  
+  position: sticky;
+  margin-left: 0%;
+  top: 0%;
+  height: 20%;
+  width: 100%;
+  clear: both;
+  display: table;
+  background-color: #D9D9D9;
+}
+#title{
+  border: 1px black solid;
+  border-color:#D9D9D9;
+  float: left;
+  color: #C5B3B3;
+  font-size: 20px;
+  height: 20%;
+  margin-left: 4%;
+}
+.dropbtn{
+  border: 1px black solid;
+  border-color:#D9D9D9;
+  float:right;
+  color: #FFFFFF;
+  background-color:#D9D9D9;
+  margin-top: 20px;
+  font-size: 35px;
+  margin-right: 2%;
+}
+.navbar a {
+   /* border: 1px black solid; */
+   border-color:#D9D9D9;
+   float: right;
+   color: #FFFFFF;
+   background-color:#D9D9D9;
+   margin-top: 22px;
+   font-size: 35px;
+   margin-right: 5%;
+}  
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #C5B3B3;
+}
+ .dropdown  { /*drop down when hovered at the menu */
+  color: #FFFFFF;
+  border: 1px black solid;
+  border-color:#D9D9D9;
+  float: right;
+  margin-top: 0%;
+  margin-right: 15px;
+  height: 0px;
+  font-size: 30px;
+  background-color: #D9D9D9;
+  /* clear: left; */
+  /* margin-bottom: 10px; */
+  /* padding: 10px; */
+  /* z-index: 100; */
+} 
+.dropdown-content {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  float: right;
+  display: none;
+  width: 300px;
+  border: 1px black solid;
+  background-color: #FFFFFF;
+  color: #D9D9D9;
+}
+.dropdown-content a {
+  float: left;
+  border: 1px black solid;
+  background-color:#D9D9D9;
+  width: 100%;
+  color: #C5B3B3;
+  display: block;
+  text-align: center;
+  /* text-decoration: none; */
+}
+.dropdown-content a:hover {
+  background-color: #C5B3B3;
+  color: #FFFFFF;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+} 
