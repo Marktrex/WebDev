@@ -1,4 +1,6 @@
-
+<?php
+        include "connection.php";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +12,7 @@
     <body>
     <div class="navbar">
         <div id="title"><h2>Panlasang Rosgen</h2></div>
-        <div class="signup"><a href="loginpage.php">Account</a></div>
+        <div class="account"><a href="info.php">Account</a></div>
         <div class="dropdown">
             <button class="dropbtn"><u>Menu</u></button>
             <div class="dropdown-content">

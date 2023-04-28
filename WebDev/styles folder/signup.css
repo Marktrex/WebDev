@@ -23,6 +23,9 @@ width: 35%;
     text-align: center;
 }
 #label3{
+    margin-right: 40px;
+}
+#label5{
     margin-left: 15%;
 }
 #btn1, #btn2{

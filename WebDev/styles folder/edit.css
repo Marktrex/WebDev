@@ -5,12 +5,13 @@
     background-color:#C5B3B3;
     margin-top: 0%;
 }
-#label1, #label2, #label3, #label4, #label5{
+#label1, #label2, #label3, #label4, #label5, #label6{
     margin-top: 25%;
     font-size: 20px;
 }
-#label3{
-    margin-left: 45px;
+
+#label6{
+    margin-left: 50px;
 }
 #form{
     border-radius: 5px;

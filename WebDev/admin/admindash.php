@@ -16,12 +16,14 @@
     <thead>
     <tr>
         <th>ID</th>
+        <th>USERNAME</th>
+        <th>PASSWORD</th>
         <th>FIRSTNAME</th>
         <th>LASTNAME</th>
         <th>EMAIL</th>
-        <th>USERNAME</th>
-        <th>PASSWORD</th>
-        <th>JOINING DATE</th>
+        <th>DATE JOINED</th>
+        <th>USER TYPE</th>
+        <th>STATUS</th>
         <th>ACTIONS</th>
       </tr>
     </thead>
@@ -35,25 +37,30 @@
         }
         while($row=$result->fetch_assoc()){
           echo "
-          <tr>
-          <th>$row[id]</th>
-          <td>$row[fname]</td>
-          <td>$row[lname]</td>
-          <td>$row[email]</td>
-          <td>$row[username]</td>
-          <td>$row[password]</td>
-          <td>$row[join_date]</td>
+            <tr>
+            <th>$row[id]</th>
+            <td>$row[username]</td>
+            <td>$row[password]</td>
+            <td>$row[fname]</td>
+            <td>$row[lname]</td>
+            <td>$row[email]</td>
+            <td>$row[join_date]</td>
+            <td>$row[account_type]</td>
             <td>
-            <a class='btnEdit' href='edit.php?id=$row[id]'>Edit</a>
-            <a class='btnDelete' href='delete.php?id=$row[id]'>Delete</a>
+            <a class='btnActive' href='active.php?id=$row[id]'>Active</a>
+            <a class='btnDisable' href='disable.php?id=$row[id]'>Disable</a>
+            $row[status]
             </td>
-      </tr>
-      ";
+            <td> <a class='btnEdit' href='edit.php?id=$row[id]'>Edit</a></td>
+            </tr>
+           
+            ";
         }
+         
       ?>
+     
     </tbody>
     </table>
     </div>
-    
   </body>
 </html>
